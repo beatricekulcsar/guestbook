@@ -11,6 +11,7 @@ include "navbar.php";
         <div class="container">
             <h1 class="experience-heading">Tell us about your experience!</h1>
             <p class="error-message" id="empty-message"><?php echo $contentEmptyMessage?></p>
+            <!-- Wenn form submitted wird, werden die Daten an guestbook_logic.php geschickt -->
             <form action="guestbook_logic.php" method="post">
                 <label for="title">Title</label>
                 <input type="text" id="title" name="title">

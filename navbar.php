@@ -20,8 +20,9 @@ include "user_query.php";
         <ul class="navbar">
             <li class="navbar-item"><a href="/guestbook/guestbook.php">Write an entry</a></li>
             <li class="navbar-item"><a href="/guestbook/all_entries.php">Guestbook</a></li>
-            <li class="navbar-item"><a href="/guestbook/user_entries.php">Your Entries</a></li>
+            <li class="navbar-item"><a href="/guestbook/user_entries.php">Your Posts</a></li>
             <li style="float:right" class="navbar-item"><a href="/guestbook/sign_out.php">Log Out</a></li>
+            <!-- Hier wird der Username des aktuellen Users in der Navigationsleiste angezeigt -->
             <li style="float:right" class="name-item"><?php echo "Hello $user[name]";?></li>
         </ul>
     </header>

@@ -3,6 +3,7 @@
 
 $pdo = new PDO('mysql:host=localhost;dbname=guestbook', 'root', 'root');
 
+// Hier werden alle Einträge rausgesucht, deren User ID die selbe ist, wie die des aktellen Benutzers
 $sql = "SELECT posts.content, posts.created_at, posts.title, users.name
 		FROM posts 
         INNER JOIN users 

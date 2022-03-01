@@ -2,6 +2,8 @@
 $creationDate = strtotime($created_at);
 ?>
 
+<!-- Hier wird der Container der einzelnen Einträge erstellt -->
+
 <article class="container">
     <h2 class="author-name"><?php echo $title; ?></h2>
     <p><?php echo $content; ?></p>

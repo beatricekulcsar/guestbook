@@ -22,6 +22,7 @@ if (isset($_SESSION['userid'])) {
     ?>
         <div class="container">
             <h1>Sign in with your email</h1>
+            <!-- Wenn ein Fehler bei der Anmeldung auftritt, wird eine Fehlermeldung angezeigt -->
             <?php if(isset($errorMessage)) : ?>
                 <div class="error-message">
                     <p><?php echo $errorMessage; ?></p>

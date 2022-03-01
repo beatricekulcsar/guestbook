@@ -6,7 +6,7 @@ include 'my_posts_query.php';
 include "navbar.php";
 ?>
 
-    <h1 id="guestbook-header">Your Entries</h1>
+    <h1 id="guestbook-header">Your Posts</h1>
     <?php 
     if ($myEntries) {
 	$Parsedown = new Parsedown();
